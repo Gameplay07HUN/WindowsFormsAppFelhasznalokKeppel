@@ -30,7 +30,7 @@ namespace WindowsFormsAppFelhasznalokKeppel
         }
         public override string ToString()
         {
-            return id + " (" + nev + " )" + Datum+kep;
+            return nev;
         }
     }
 }
